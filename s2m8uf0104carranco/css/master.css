@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e9ebed;
+  font-family: 'Lucida Grande', sans-serif;
+}
+
+#barra {
+  background-color: #3b5998;
+  height: 45px;
+}
+
+#main {
+width: 850px;
+height: 920px;
+margin: 0 auto;
+}
+
+#cap {
+  background-image: url("../img/banner.jpg");
+  height: 355px;
+  box-shadow:  0 1px 3px rgba(0,0,0,0.12);
+}
+
+#content {
+  margin-top: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+#pic {
+  float: left;
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  position: relative;
+  margin-top: 170px;
+  margin-left: 15px;
+  background-color: red;
+}
+
+h2 {
+position: absolute;
+margin-top: 300px;
+margin-left: 230px;
+color: white;
+font-weight: normal;
+text-shadow: 7px 7px 7px #333;
+}
+
+h4 {
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 230px;
+  color: white;
+  font-weight: lighter;
+}
+
+ul {
+  background-color: white;
+  list-style-type: none;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0 3px 0 3px;
+  border-color: #f8f8f9;
+}
+
+li {
+  font-weight: bold;
+  float: right;
+  display: block;
+  color: #3b5998;
+  text-align: center;
+  padding: 15px;
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+  border-color: #f8f8f9;
+}
+
+.no-post {
+  float: left;
+  width: 320px;
+  height: 550px;
+}
+
+.post {
+  float: right;
+  width: 516px;
+  height: 170px;
+  margin-bottom: 12px;
+}
+
+.no-post , .post {
+  box-shadow:  0 1px 3px rgba(0,0,0,0.12);
+  border-radius: 5px;
+  background-color: white;
+}
