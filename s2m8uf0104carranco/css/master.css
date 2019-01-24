@@ -5,7 +5,11 @@
 
 body {
   background-color: #e9ebed;
-  font-family: 'Lucida Grande', sans-serif;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+}
+
+li {
+  list-style-type: none;
 }
 
 #barra {
@@ -42,7 +46,6 @@ margin: 0 auto;
   position: relative;
   margin-top: 170px;
   margin-left: 15px;
-  background-color: red;
 }
 
 h2 {
@@ -62,16 +65,15 @@ h4 {
   font-weight: lighter;
 }
 
-ul {
+.nav-bar {
   background-color: white;
-  list-style-type: none;
   overflow: hidden;
   border-style: solid;
   border-width: 0 3px 0 3px;
   border-color: #f8f8f9;
 }
 
-li {
+.nav-list {
   font-weight: bold;
   float: right;
   display: block;
@@ -81,23 +83,195 @@ li {
   border-style: solid;
   border-width: 0 1px 0 1px;
   border-color: #f8f8f9;
+  list-style-type: none;
 }
 
 .no-post {
-  float: left;
-  width: 320px;
-  height: 550px;
+  width: 300px;
 }
 
 .post {
   float: right;
   width: 516px;
   height: 170px;
-  margin-bottom: 12px;
+  clear: right;
 }
 
 .no-post , .post {
+  overflow: hidden;
   box-shadow:  0 1px 3px rgba(0,0,0,0.12);
   border-radius: 5px;
   background-color: white;
+  margin-bottom: 11px;
+  font-size: 12px;
+}
+
+#biografia, #amics, #fotos , #sorpresa {
+  padding: 12px;
+}
+
+#biografia li {
+  float: left;
+  margin: 0 0 0 1px;
+  padding: 0 20px;
+  display: block;
+  line-height: 43px;
+}
+
+#content h3 {
+  line-height: 24px;
+  text-indent: 30px;
+  background-position: 0 -24px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+}
+
+#amics h3 {
+  background-position: 0 -48px;
+}
+
+#biografia h3 {
+  background-position: 0 0;
+}
+
+#biografia h3 {
+  background-position: 0 0;
+}
+
+#sorpresa h3 {
+  background-position: 0 -72px;
+}
+
+#biografia p {
+  padding: 0 0 10px 0;
+  border-bottom: solid 1px #DDD;
+}
+
+p {
+  text-align: justify;
+}
+
+#biografia .estudis {
+  list-style-image: url(img/icones_estudis.png);
+}
+
+#amics li {
+  float: left;
+  width: 32.5%;
+  height: 100px;
+  margin: 1px;
+  background-position: center;
+  position: relative;
+
+}
+
+#amics ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#SF {
+  background-image: url('https://sfernandez2019crn.github.io/M08/s2m8uf104_fernandez/img/gos.png');
+}
+
+#PM {
+  background-image: url('https://mpanchame2019crn.github.io/M08//Facebook/img/perfil.png');
+}
+
+#PS {
+  background-image: url('https://psanz2019crn.github.io/M08/s2m8uf104_sanz/img/aoperfil.gif');
+  background-size: cover;
+}
+
+#MC {
+  background-image: url('https://mcodispoto2019crn.github.io/M08/facebook/img/snow2.jpg');
+  background-size: cover;
+}
+
+#SM {
+  background-image: url('https://smarcer2019crn.github.io/M08/s2m8uf104_marcer/img/perfil_yo.jpg');
+}
+
+#VH {
+  background-image: url('https://vherrero2019crn.github.io/M08/s2m8uf104facebook/img/perfil.png');
+    background-size: cover;
+}
+
+#NC {
+  background-image: url('https://nchia2019crn.github.io/M08/s2m8uf104_chia/img/perfil.jpg');
+    background-size: cover;
+}
+
+#AD {
+  background-image: url('https://adositey2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/photo.png');
+
+}
+
+#GB {
+  background-image: url('https://gbonsoms2019crn.github.io/M08/s2m8uf104_facebook/img/pajaro.jpg');
+    background-size: cover;
+
+}
+
+#amics a {
+  color:white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 3px;
+}
+
+#first ul {
+  padding: 5px 0 7px 7px;
+  background-color: #F3F3F3;
+  background-size: cover;
+  overflow: auto;
+  border-bottom: 1px solid #e7e8eb;
+}
+
+#first li {
+  font-weight: bold;
+  float: left;
+  display: inline;
+  color: #3b5998;
+  text-align: center;
+  padding: 5px;
+  border-style: solid;
+  border-width: 0 1px 0 1px;
+  border-color: #e7e8eb;
+  list-style-type: none;
+}
+
+#first li img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.lil {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 3%;
+  margin-left: 15px;
+}
+input[type=text] {
+  resize: none;
+  border: none;
+  color: grey;
+  margin-left: 35px;
+  margin-top: 25px;
+  overflow: hidden;
+  width: 50%;
+  font-size: 1.1em;
+}
+
+input:focus{
+    outline: none;
+}
+
+#bottom {
+
 }
