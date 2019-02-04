@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 210mm;
+  margin: 20mm 15mm 20mm 15mm;
+  background-color: #f2f3f4;
+    font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+  background-image: none;
+
+}
+
+img {
+  width: 30mm;
+}
